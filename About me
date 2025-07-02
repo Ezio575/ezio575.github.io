@@ -62,7 +62,7 @@
 </head>
 <body>
   <div class="container">
-    <h1 id="typed">Привет! Я — Твоё Имя</h1>
+    <h1 id="typed">Мир Господень! Меня зовут Сергей Попов - Погасий.</h1>
 
     <section id="about">
       <h2>О себе</h2>
@@ -86,8 +86,8 @@
 
     <section id="contacts">
       <h2>Контакты</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+      <p>Email: <a href="mailto:popov1991sergei@yandex.ru">popov1991sergei@yandex.ru</a></p>
+      <p>GitHub: <a href="https://github.com/Ezio575" target="_blank">github.com/Ezio575</a></p>
     </section>
   </div>
 </body>
