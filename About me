@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Портфолио — Твоё Имя</title>
+<style>
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #f9f9f9;
+    color: #222;
+    margin: 0; padding: 20px;
+    display: flex; justify-content: center; align-items: flex-start;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 700px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  h1 {
+    font-weight: normal;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+    margin-bottom: 20px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+  section {
+    margin-bottom: 25px;
+  }
+  h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 6px;
+  }
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="typed">Привет! Я — Твоё Имя</h1>
+
+    <section id="about">
+      <h2>О себе</h2>
+      <p>Я начинающий разработчик, изучаю язык C и стремлюсь развиваться в области системного и встраиваемого программного обеспечения. Планирую создавать мини-проекты и постепенно расширять своё портфолио.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Навыки</h2>
+      <ul>
+        <li>Язык C — базовый уровень, в процессе изучения</li>
+        <li>Основы алгоритмов и структур данных</li>
+        <li>Работа с Git и GitHub</li>
+        <li>Понимание системного программирования и ОС</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Проекты</h2>
+      <p>Скоро здесь появятся мои проекты.</p>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+    </section>
+  </div>
+</body>
+</html>
